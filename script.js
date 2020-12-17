@@ -23,7 +23,9 @@ const initGame = function () {
   score1EL.textContent = 0;
   current0El.textContent = 0;
   current1El.textContent = 0;
+
   diceEle.classList.add("hidden");
+
   scores = [0, 0];
   currentScore = 0;
   activePlayer = 0;
